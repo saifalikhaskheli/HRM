@@ -1,0 +1,112 @@
+project_id = "xwfzrbigmgyxsrzlkqwr"
+
+[functions.create-company]
+verify_jwt = true
+
+[functions.invite-user]
+verify_jwt = true
+
+[functions.assign-plan]
+verify_jwt = true
+
+[functions.freeze-company]
+verify_jwt = true
+
+[functions.check-subscription-health]
+verify_jwt = false
+
+[functions.send-email]
+verify_jwt = false
+
+[functions.send-notification]
+verify_jwt = false
+
+[functions.create-super-admin]
+verify_jwt = false
+
+[functions.create-platform-admin]
+verify_jwt = false
+
+[functions.check-platform-admin]
+verify_jwt = false
+
+[functions.check-suspicious-login]
+verify_jwt = false
+
+[functions.send-test-email]
+verify_jwt = false
+
+[functions.check-email-secrets]
+verify_jwt = false
+
+[functions.send-webhook]
+verify_jwt = false
+
+[functions.request-multi-company]
+verify_jwt = true
+
+[functions.request-trial-extension]
+verify_jwt = true
+
+[functions.send-trial-expiration-emails]
+verify_jwt = false
+
+[functions.create-employee-user]
+verify_jwt = false
+
+[functions.manage-email-settings]
+verify_jwt = false
+
+[functions.test-company-email]
+verify_jwt = false
+
+[functions.verify-domain]
+verify_jwt = false
+
+[functions.check-subdomain-availability]
+verify_jwt = false
+
+[functions.check-domain-health]
+verify_jwt = false
+
+[functions.check-wildcard-health]
+verify_jwt = false
+
+[functions.manage-vercel-domain]
+verify_jwt = false
+
+[functions.generate-payslip]
+verify_jwt = false
+
+[functions.reactivate-user]
+verify_jwt = false
+
+[functions.send-recruitment-notification]
+verify_jwt = true
+
+[functions.document-upload]
+verify_jwt = false
+
+[functions.document-access]
+verify_jwt = false
+
+[functions.document-delete]
+verify_jwt = false
+
+[functions.create-company-admin]
+verify_jwt = false
+
+[functions.create-company-link]
+verify_jwt = false
+
+[functions.use-company-link]
+verify_jwt = false
+
+[functions.cron-performance-reminders]
+verify_jwt = false
+
+[functions.cron-subscription-health]
+verify_jwt = false
+
+[functions.cron-document-expiry]
+verify_jwt = false
